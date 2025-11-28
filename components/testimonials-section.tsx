@@ -113,7 +113,7 @@ export function TestimonialsSection() {
                 transition={{ duration: 0.5 }}
               >
                 <p className="text-xl md:text-2xl text-foreground leading-relaxed mb-8">
-                  "{testimonials[currentIndex].content}"
+                  &ldquo;{testimonials[currentIndex].content}&rdquo;
                 </p>
 
                 <div className="flex items-center gap-4">
